@@ -1,7 +1,3 @@
-machine:
-  xcode:
-    version: 8.2
-
 test:
   override:
     - echo "Tests are for suckers"
@@ -10,4 +6,5 @@ deployment:
   testflight:
     branch: master
     commands:
-      - fastlane beta
+      - bundle exec fastlane beta:
+        pwd: ios
