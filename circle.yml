@@ -4,4 +4,4 @@ machine:
 
 test:
   override:
-    - fastlane beta
+    - bundle exec fastlane beta
