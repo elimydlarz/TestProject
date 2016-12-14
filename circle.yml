@@ -4,4 +4,4 @@ machine:
 
 test:
   override:
-    - bundle exec fastlane beta
+    - cd ios && fastlane beta
