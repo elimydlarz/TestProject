@@ -4,4 +4,4 @@ machine:
 
 test:
   override:
-    - cd ios && fastlane beta
+    - echo "Tests are for suckers"
