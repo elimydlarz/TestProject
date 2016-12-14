@@ -8,5 +8,6 @@ test:
 
 deployment:
   testflight:
-   commands:
-    - bundle exec fastlane beta
+    branch: master
+    commands:
+      - fastlane beta
