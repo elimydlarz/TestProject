@@ -5,3 +5,8 @@ machine:
 test:
   override:
     - echo "Tests are for suckers"
+
+deployment:
+  testflight:
+   commands:
+    - bundle exec fastlane beta
