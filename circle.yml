@@ -7,5 +7,5 @@ deployment:
     branch: master
     commands:
       - bundle exec fastlane beta:
-        pwd:
-          ios
+          pwd:
+            ios
