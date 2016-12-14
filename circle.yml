@@ -4,4 +4,4 @@ machine:
 
 test:
   override:
-    - echo "Skipping tests"
+    - fastlane beta
